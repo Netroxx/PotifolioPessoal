@@ -65,7 +65,7 @@
 ---
 
 ## 📝 Sobre o Projeto
-O Portfólio dO Pedro será desenvolvido para atuar como uma vitrine digital, centralizando a trajetória acadêmica e as competências técnicas de forma moderna e organizada.
+O Portfólio do Pedro será desenvolvido para atuar como uma vitrine digital, centralizando a trajetória acadêmica e as competências técnicas de forma moderna e organizada.
 
 - **Por que ele existe:**
   O projeto nasceu da necessidade de criar uma identidade digital sólida para estudantes de tecnologia. Em um mercado competitivo, possuir um espaço próprio para demonstrar evolução técnica é fundamental para o crescimento profissional.
