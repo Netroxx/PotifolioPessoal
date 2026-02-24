@@ -5,7 +5,7 @@
   <tr>
     <td width="800px">
       <div align="justify">
-        O Portfólio o Pedro é um website que apresentara a trajetória acadêmica. Este projeto faz parte do Laboratório de Desenvolvimento de Software da PUC Minas e foca em uma interface amigável e identidade visual coerente.
+        O Portfólio do Pedro é um website que apresentara a trajetória acadêmica. Este projeto faz parte do Laboratório de Desenvolvimento de Software da PUC Minas e foca em uma interface amigável e identidade visual coerente.
       </div>
       <div align="justify">
       </div>
