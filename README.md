@@ -81,23 +81,16 @@ O Portfólio do Pedro será desenvolvido para atuar como uma vitrine digital, ce
 
 ## 🛠 Tecnologias Utilizadas
 
-As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construção do Portfólio das Meninas. A seleção prioriza tecnologias modernas para garantir alta performance e um design responsivo.
+As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construção do Portfólio Pedro Marçal. A seleção prioriza tecnologias modernas para garantir alta performance e um design responsivo.
 
 ### 💻 Front-end
 
-* **Framework/Biblioteca:**
+* **Framework/Biblioteca:** Next.js, TypeScript, Tailwind CSS
 
-### 🖥️ Back-end
-
-* **Linguagem/Runtime:**
-
-### 📱 Mobile (Opcional)
-
-* **Framework:** 
 
 ### ⚙️ Infraestrutura & DevOps
 
-* **Containerização:** 
+* **Containerização:** O projeto utiliza Node.js como runtime principal para o desenvolvimento e build. Utiliza o Vercel para hospedagem
 
 ---
 
@@ -265,16 +258,5 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 ---
 
 
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
