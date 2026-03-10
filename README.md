@@ -25,7 +25,7 @@
 ---
 
 ## 🚧 Status do Projeto
-
+Finalizado
 ---
 
 ## 📚 Índice
