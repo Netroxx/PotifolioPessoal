@@ -34,16 +34,6 @@
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura](#-arquitetura)
   - [Exemplos de diagramas](#exemplos-de-diagramas)
-- [Instalação e Execução](#-instalação-e-execução)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-     - [1 Back-end (Spring Boot)](#1-back-end-spring-boot)
-     - [2 Front-end (React, Vite)](#2-front-end-react-vite)
-     - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
-  - [Instalação de Dependências](#-instalação-de-dependências)
-    - [Front-end (React)](#front-end-react)
-    - [Back-end (Spring Boot)](#back-end-spring-boot)
-  - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#-como-executar-a-aplicação)
     - [Terminal 1: Back-end (Spring Boot)](#terminal-1-back-end-spring-boot)
     - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
@@ -178,60 +168,34 @@ Descreva o propósito das pastas principais.
 ├── .vscode/                     # ⚙️ Configurações de ambiente da IDE (opcional).
 ├── .github/                     # 🤖 CI/CD (Actions), templates de Issues e Pull Requests.
 ├── README.md                    # 📘 Documentação principal do projeto.
-├── CONTRIBUTING.md              # 🤝 Guia de contribuição.
-├── LICENSE                      # ⚖️ Licença do projeto.
+
 ├── docker-compose.yml           # 🐳 Orquestração dos containers (front/back/db/etc).
 ├── docker-compose.override.yml  # 🐳 Configurações extras apenas para desenvolvimento.
 │
 ├── /frontend                    # 📁 Aplicação React
 │   ├── .env.example             # 🧩 Variáveis de ambiente do Front-end.
-│   ├── Dockerfile               # 🐳 Docker build do Front-end.
-│   ├── .eslintrc.js             # ✨ Regras do ESLint.
-│   ├── .prettierrc              # 🎨 Configuração do Prettier.
 │   ├── /public                  # 📂 Arquivos estáticos e index.html.
 │   ├── /src                     # 📂 Código-fonte React
-│   │   ├── /components          # 🧱 Componentes reutilizáveis (UI).
 │   │   ├── /pages               # 📄 Páginas/rotas da aplicação.
 │   │   ├── /services            # 🔌 Serviços e chamadas HTTP.
-│   │   ├── /hooks               # 🎣 Hooks personalizados.
 │   │   ├── /styles              # 🎨 Estilos globais, temas, Design System.
 │   │   ├── /assets              # 🖼️ Recursos estáticos importados
 │   │   │   ├── /images          # 🖼️ Imagens.
-│   │   │   ├── /icons           # 💡 Ícones.
 │   │   │   └── /fonts           # ✒️ Fontes personalizadas.
 │   │   └── /utils               # 🛠️ Funções utilitárias.
 │   ├── package.json             # 📦 Dependências e scripts.
-│   └── yarn.lock / package-lock.json # 🔒 Lockfile das dependências.
 │
 ├── /backend                     # 📁 Aplicação Spring Boot
 │   ├── .env.example             # 🧩 Variáveis de ambiente do Back-end.
-│   ├── Dockerfile               # 🐳 Docker build do Back-end.
 │   │
 │   ├── /src/main/java           # 📂 Código-fonte Java
 │   │   └── /com/exemplo/app
 │   │       ├── /controller      # 🎮 Endpoints REST.
-│   │       ├── /service         # ⚙️ Regras e lógica de negócio.
-│   │       ├── /repository      # 🗄️ Repositórios (JPA/Hibernate).
-│   │       ├── /model           # 🧬 Entidades persistentes (JPA).
-│   │       ├── /domain          # 🌐 Objetos de Domínio puro (sem anotações).
-│   │       ├── /dto             # ✉️ Data Transfer Objects.
-│   │       ├── /config          # 🔧 Configurações gerais (DB, Swagger, CORS, etc.).
-│   │       ├── /exception       # 💥 Exceptions e handlers globais.
-│   │       └── /security        # 🛡️ Autenticação e Autorização (Spring Security).
 │   │
 │   ├── /src/main/resources      # 📂 Recursos do Spring Boot
 │   │   ├── application.yml         # ⚙️ Configuração principal da aplicação
-│   │   ├── application-dev.yml     # 🧪 Configurações específicas do ambiente de DESENVOLVIMENTO
-│   │   ├── application-prod.yml    # 🚀 Configurações específicas para PRODUÇÃO
-│   │   ├── application-test.yml    # 🧪 Configurações usadas nos testes automatizados
 │   │   ├── /static                # 🌐 Arquivos estáticos (HTML/CSS/JS).
-│   │   ├── /templates             # 🖼️ Templates Thymeleaf/Freemarker.
-│   │   ├── /messages              # 🌎 Arquivos de internacionalização (i18n).
-│   │   └── /db                    # 💾 Scripts de banco usados pela aplicação
-│   │       └── /migration         # 📜 Migrações do banco (Flyway/Liquibase).
 │   │
-│   ├── /src/test/java            # 🧪 Testes unitários e de integração.
-│   └── pom.xml / build.gradle    # 🛠️ Build e dependências.
 │
 ├── /scripts                      # 📜 Scripts de automação
 │   ├── dev.sh                    # 🚀 Ambiente de desenvolvimento completo.
@@ -251,7 +215,6 @@ Use GIFs e prints para mostrar o projeto em ação.
 > [!WARNING]
 > Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem. Saiba mais sobre o GitHub Pages clicando [aqui](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io).
 
-### 📱 Aplicativo Mobile
 
 ### 🌐 Aplicação Web
 
@@ -305,14 +268,6 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 * [**Prof. Dr. João Paulo Aramuni**](https://github.com/joaopauloaramuni) - Pelos valiosos ensinamentos sobre **Arquitetura de Software** e **Padrões de Projeto**.
 ---
 
-## 📄 Licença
-
-Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
-
----
-
-
-
 
 
 # React + Vite
@@ -327,7 +282,3 @@ Currently, two official plugins are available:
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
