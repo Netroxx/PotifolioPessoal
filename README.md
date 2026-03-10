@@ -26,6 +26,7 @@
 
 ## 🚧 Status do Projeto
 Finalizado
+https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 ---
 
 ## 📚 Índice
