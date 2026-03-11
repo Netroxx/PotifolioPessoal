@@ -64,7 +64,6 @@ O Portfólio do Pedro será desenvolvido para atuar como uma vitrine digital, ce
 - 📨 Sistema de Contato Funcional: Formulário com campos de nome, e-mail e mensagem, com funcionalidade de envio real por e-mail.
 - 🔗 Integração com Redes Sociais: Ícones clicáveis e interativos para redirecionamento direto ao LinkedIn, WhatsApp e e-mail.
 - 📱 Design Responsivo: Interface amigável e adaptável, garantindo a visualização perfeita em computadores, tablets e smartphones.
-- 🎞️ Visualização de Projetos: Inserção de imagens ou GIFs que demonstram as telas e interações dos projetos em funcionamento.
 ---
 
 ## 🛠 Tecnologias Utilizadas
@@ -106,7 +105,7 @@ Certifique-se de que o usuário tenha o ambiente configurado.
 
 ### ⚡ Como Executar a Aplicação
 
---- Apenas acesse o link https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
+--- Apenas acesse o link https://v0-website-de-portfolio.vercel.app/
 
 
 
