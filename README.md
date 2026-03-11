@@ -14,7 +14,7 @@
       <div>
         <td width="350px" align="center">
   <img 
-    src="Logo - https://github.com/Netroxx/PedroMar-al.github.io/blob/main/logo/portifolio.png" 
+    src="https://github.com/Netroxx/PedroMar-al.github.io/blob/main/logo/portifolio.png" 
     alt="Logo do Projeto"
     height="180"
   />
@@ -150,7 +150,7 @@ Descreva o propósito das pastas principais.
 
 ### 🌐 Aplicação Web
 
- https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
+ https://v0-website-de-portfolio.vercel.app/
 
 
 
