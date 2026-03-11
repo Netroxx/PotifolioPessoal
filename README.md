@@ -26,16 +26,15 @@
 
 ## 🚧 Status do Projeto
 Finalizado
-https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 ---
 
-**## 🖼️ Capturas de Tela
+## 🖼️ Capturas de Tela
 
 | <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/telainicial.png" alt="Portfolio Home" width="600"/> | <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/Sobremim.png" alt="Portfolio Ajuda" width="600"/> |
 |:----:|:-----:|
 | Home | About | 
 
------**
+
 
 ---
 
@@ -104,32 +103,12 @@ Você pode incluir:
 ### Pré-requisitos
 Certifique-se de que o usuário tenha o ambiente configurado.
 
----
-
-### 🔑 Variáveis de Ambiente
-
----
-
-#### 3. Exemplos de Variáveis de Ambiente na Vercel
-
----
-
-### 📦 Instalação de Dependências
-
----
 
 ### ⚡ Como Executar a Aplicação
 
----
+--- Apenas acesse o link https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 
-#### 📦 Passos para build, inicialização e execução
 
----
-
-## 🚀 Deploy
-Instruções claras para deploy em produção.
-
----
 
 ## 📂 Estrutura de Pastas
 
@@ -139,12 +118,9 @@ Descreva o propósito das pastas principais.
 .
 ├── .editorconfig                # ✍️ Padronização de estilo de código.
 ├── .env.local                   # 🔒 Variáveis SENSÍVEIS do ambiente LOCAL (não versionado).
-├── .env.test                    # 🧪 Variáveis de ambiente para TESTES AUTOMATIZADOS.
-├── .env.staging                 # ☁️ Variáveis de ambiente para STAGING/HOMOLOGAÇÃO.
 ├── .env.example                 # 🧩 Exemplo de TODAS as variáveis necessárias (sem valores sensíveis).
 ├── .gitignore                   # 🧹 Ignora arquivos/pastas não versionadas (.env, node_modules, target, etc.).
 ├── .vscode/                     # ⚙️ Configurações de ambiente da IDE (opcional).
-├── .github/                     # 🤖 CI/CD (Actions), templates de Issues e Pull Requests.
 ├── README.md                    # 📘 Documentação principal do projeto.
 
 ├── docker-compose.yml           # 🐳 Orquestração dos containers (front/back/db/etc).
@@ -163,46 +139,21 @@ Descreva o propósito das pastas principais.
 │   │   └── /utils               # 🛠️ Funções utilitárias.
 │   ├── package.json             # 📦 Dependências e scripts.
 │
-├── /backend                     # 📁 Aplicação Spring Boot
-│   ├── .env.example             # 🧩 Variáveis de ambiente do Back-end.
-│   │
-│   ├── /src/main/java           # 📂 Código-fonte Java
-│   │   └── /com/exemplo/app
-│   │       ├── /controller      # 🎮 Endpoints REST.
-│   │
-│   ├── /src/main/resources      # 📂 Recursos do Spring Boot
-│   │   ├── application.yml         # ⚙️ Configuração principal da aplicação
-│   │   ├── /static                # 🌐 Arquivos estáticos (HTML/CSS/JS).
 │   │
 │
 ├── /scripts                      # 📜 Scripts de automação
 │   ├── dev.sh                    # 🚀 Ambiente de desenvolvimento completo.
-│   ├── build_all.sh              # 🛠️ Build geral (front + back).
-│   └── deploy.sh                 # ☁️ Deploy em produção/homologação.
 │
-├── /docs                         # 📚 Documentação, arquitetura, modelos C4, Swagger/OpenAPI.
-└── /tests                        # 🧪 Testes End-to-End (Cypress/Playwright).
 ```
 
 ---
 
-## 🎥 Demonstração
-
-Use GIFs e prints para mostrar o projeto em ação.  
-
-> [!WARNING]
-> Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem. Saiba mais sobre o GitHub Pages clicando [aqui](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io).
-
 
 ### 🌐 Aplicação Web
 
-### 💻 Exemplo de Saída no Terminal (para Back-end, API, CLI)
+ https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 
----
 
-## 🧪 Testes
-
----
 
 ## 🔗 Documentações utilizadas
 
@@ -219,10 +170,6 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 | Pedro Marcal Ballesteros  | <div align="center"><img src="https://github.com/Netroxx/PedroMar-al.github.io/blob/main/eu%20aurora.jpg" width="70px" height="70px"></div> | <div align="center"><a href="https://github.com/Netroxx"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | <div align="center"><a href="www.linkedin.com/in/pedro-ballesteros-4b342b246"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a></div> | <div align="center"><a href="pedromarcal4@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="50px" height="50px"></a></div> |
 
 
-> [!TIP]
-> 💡 **Dica:** Escolha uma foto profissional, preferencialmente de rosto, evitando imagens com baixa qualidade, filtros excessivos ou elementos distrativos.
-
----
 
 ## 🤝 Contribuição
 Guia para contribuições ao projeto.
