@@ -29,24 +29,13 @@ Finalizado
 https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 ---
 
-## 📚 Índice
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades Principais](#-funcionalidades-principais)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Arquitetura](#-arquitetura)
-  - [Exemplos de diagramas](#exemplos-de-diagramas)
-  - [Como Executar a Aplicação](#-como-executar-a-aplicação)
-    - [Terminal 1: Back-end (Spring Boot)](#terminal-1-back-end-spring-boot)
-    - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
-    - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
-- [Estrutura de Pastas](#-estrutura-de-pastas)
-- [Demonstração](#-demonstração)
-  - [Aplicação Web](#-aplicação-web)
-- [Testes](#-testes)
-- [Documentações utilizadas](#-documentações-utilizadas)
-- [Autores](#-autores)
-- [Agradecimentos](#-agradecimentos)
+**## 🖼️ Capturas de Tela
 
+| <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/Contato.png" alt="Portfolio Home" width="600"/> | <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/telainicial.png" alt="Portfolio Ajuda" width="600"/> |
+|:----:|:-----:|
+| Home | Ajuda | 
+
+-----**
 
 ---
 
