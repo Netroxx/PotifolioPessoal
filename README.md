@@ -97,10 +97,7 @@ Você pode incluir:
 
 ---
 
-## 🔧 Instalação e Execução
 
-### Pré-requisitos
-Certifique-se de que o usuário tenha o ambiente configurado.
 
 
 ### ⚡ Como Executar a Aplicação
