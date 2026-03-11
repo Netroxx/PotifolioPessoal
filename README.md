@@ -31,9 +31,9 @@ https://v0-website-de-portfolio-56m1pifyy-netroxxs-projects.vercel.app/
 
 **## 🖼️ Capturas de Tela
 
-| <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/Contato.png" alt="Portfolio Home" width="600"/> | <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/telainicial.png" alt="Portfolio Ajuda" width="600"/> |
+| <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/telainicial.png" alt="Portfolio Home" width="600"/> | <img src="https://github.com/Netroxx/PotifolioPessoal/blob/main/Imagens/Sobremim.png" alt="Portfolio Ajuda" width="600"/> |
 |:----:|:-----:|
-| Home | Ajuda | 
+| Home | About | 
 
 -----**
 
